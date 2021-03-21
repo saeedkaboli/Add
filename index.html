@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.js">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style:none;
+            text-decoration: none;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            background-color: lightGray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #Box{
+            width: 200px;
+            height:300px;
+            border: 1px solid black;
+            margin: 0px 50px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            overflow: auto;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+        }
+        #child{
+            width: 90%;
+            height: 10px;
+            padding: 20px 0px;
+            border-radius: 10px;
+            background-color: #fff;
+            margin: 10px 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button>click me</button>
+    <div id="Box"></div>
+</body>
+<script src="App.js"></script>
+</html>
